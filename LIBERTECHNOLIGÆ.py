@@ -1,6 +1,6 @@
 import datetime
 
-verision = "0.01"
+version = "0.01"
 start = datetime.datetime.now()
 text0 = """
 <blockquote>
@@ -89,6 +89,18 @@ and all distortions are filtered to the outside. find what works for you!
 <br/>
 <br/>If you have such a personal ritual, perform it now. Else, find one that works
 for you!
+
+book 2
+
+Books, literature, and moveis are little more than carrier signals for ideas,
+thought patterns and telepathic* transmissions. Higher dimensional frequencies
+work outside in chronological boundaries. The 'ah ha' moment requires your 
+attention and intention, not the completion of a task, reading the whole book,
+or watching the whole video.
+
+*Whatever preconcieved nothions you might have about this word, or any in this book,
+you're gonna have a better time if you are able to recognizr them for what they are.
+Your mind is a parachute, it works better when it's open.
 """
 
 html = """
@@ -118,4 +130,4 @@ f.write(html)
 f.close()
 
 delta = datetime.datetime.now() - start
-print("compiled in {}".format(delta))
+print("published in {}ms".format(delta*1024))
